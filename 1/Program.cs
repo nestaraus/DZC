@@ -6,7 +6,7 @@ string rec(int n)
 {
     if (n == 0)
         return "";
-    return $"{n} " + rec(n-1);
+    return $"{n} " + rec(n - 1);
 }
 
 
